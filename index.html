@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wings Foundation</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-image: url("https://plus.unsplash.com/premium_photo-1663091594914-0988859bfa92?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZG9uYXRpb25zfGVufDB8fDB8fHww");
+            background-size: cover;
+            background-attachment: fixed;
+            color: #333;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: rgba(240, 240, 240, 0.8);
+        }
+
+        .logo {
+            display: flex; /* Use flexbox for alignment */
+            align-items: center; /* Vertically center items */
+        }
+
+        .logo img {
+            max-height: 50px;
+            margin-right: 10px; /* Space between image and text */
+        }
+
+        .logo span { /* Style the text next to the image */
+            font-weight: bold;
+            font-size: 1.2rem; /* Adjust as needed */
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: rgba(0, 123, 255, 0.2);
+        }
+
+        .donate-button {
+            background-color: #007bff;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .donate-button:hover {
+            background-color: #0056b3;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 8rem 0;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .why-us, .donation-info {
+            padding: 3rem;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 3rem auto;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .why-us h2, .donation-info h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .why-us p, .donation-info p {
+            font-size: 1.2rem;
+            line-height: 1.7;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+             <span>Wings Foundation</span>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#" class="donate-button">Donate</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Wings Foundation</h1>
+            <p>Making a difference together</p>
+        </section>
+
+        <section class="why-us">
+            <h2>Why Us?</h2>
+            <p>We are dedicated to...</p>
+        </section>
+
+        <section class="donation-info">
+            <h2>Donation Information</h2>
+            <p>Your donations will help educate children and support those in need...</p>
+            <a href="#" class="donate-button">Make a Donation</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Wings Foundation</p>
+    </footer>
+
+</body>
+</html>
